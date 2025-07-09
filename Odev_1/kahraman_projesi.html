@@ -11,30 +11,29 @@
       margin: 0;
       padding: 0;
       line-height: 1.6;
+      text-align: center;
     }
 
     header, section {
       padding: 20px;
       max-width: 800px;
-      margin: auto;
+      margin: 20px auto;
       background-color: #fff;
-      margin-top: 20px;
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
 
     h1, h2, h3 {
       color: #333;
-    }
-
-    ul {
-      padding-left: 20px;
+      margin: 10px 0;
     }
 
     img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
+      margin: 20px auto;
+      display: block;
     }
 
     a {
@@ -46,14 +45,23 @@
       text-decoration: underline;
     }
 
+    ul {
+      text-align: left;
+      padding-left: 40px;
+    }
+
     form {
       display: flex;
       flex-direction: column;
+      align-items: center;
     }
 
     label {
       margin-top: 10px;
       font-weight: bold;
+      width: 100%;
+      max-width: 400px;
+      text-align: left;
     }
 
     input, textarea {
@@ -62,11 +70,13 @@
       border: 1px solid #ccc;
       border-radius: 4px;
       font-size: 1em;
+      width: 100%;
+      max-width: 400px;
     }
 
     button {
       margin-top: 15px;
-      padding: 10px;
+      padding: 10px 20px;
       background-color: #333;
       color: white;
       border: none;
@@ -87,6 +97,10 @@
       header, section {
         padding: 15px;
       }
+
+      ul {
+        padding-left: 20px;
+      }
     }
   </style>
 </head>
@@ -95,10 +109,20 @@
   <header>
     <h1>Batman</h1>
     <h2>Gotham'ın Koruyucusu</h2>
+
+    
+    <img src="250px-Batmanlee.png" alt="Batman resmi" width="300">
+
     <h3>Bruce Wayne</h3>
-    <p>Batman, DC Comics evreninde yer alan kurgusal bir süper kahramandır. Zengin iş adamı Bruce Wayne'in alter egosudur ve suçla savaşmak için teknolojik araçlar ve dövüş becerilerini kullanır.</p>
-    https://upload.wikimedia.org/wikipedia/en/8/85/Batman_DC_Comics.png
-    <p>Daha fazla bilgi için https://tr.wikipedia.org/wiki/Batman_(DC_Comics).</p>
+    <p>Batman, DC Comics evreninde yer alan kurgusal bir süper kahramandır. Batman'in gizli kimliği milyarder sanayici, playboy ve hayırsever olan Bruce Wayne'in alter egosudur ve suçla savaşmak için teknolojik araçlar ve dövüş becerilerini kullanır. Tahmini serveti çizgi romanlara göre günümüzde 26-33 milyar USD'dır. Henüz çocukken ailesinin öldürülmesine şahit olan Wayne, pek çok çeşitli alanlarda kendini eğittikten sonra yarasa temalı kostüm ve ekipmanları ile suça karşı savaşa başlar. Pek çok diğer süper kahramanlar gibi süper güçleri yoktur, zekası ve dedektiflik yeteneğini, şirketi sayesinde bilim, teknoloji ve kişisel serveti ile destekleyerek savaşını sürdürür. Batman olarak genelde geceleri suçla savaşır, herkese gizemli bir şekilde, bir yarasa gibi yaklaşır. Oradadır ama görünmez.</p>
+
+    
+    <p>
+  Daha fazla bilgi için 
+  <a href="https://tr.wikipedia.org/wiki/Batman_(karakter)" target="_blank">
+    https://tr.wikipedia.org/wiki/Batman_(karakter)
+  </a>.
+</p>
   </header>
 
   <section>
@@ -145,3 +169,5 @@
 
 </body>
 </html>
+
+
