@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Batman Tanıtım ve Başvuru</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header, section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1em;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      header, section {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Batman</h1>
+    <h2>Gotham'ın Koruyucusu</h2>
+    <h3>Bruce Wayne</h3>
+    <p>Batman, DC Comics evreninde yer alan kurgusal bir süper kahramandır. Zengin iş adamı Bruce Wayne'in alter egosudur ve suçla savaşmak için teknolojik araçlar ve dövüş becerilerini kullanır.</p>
+    https://upload.wikimedia.org/wikipedia/en/8/85/Batman_DC_Comics.png
+    <p>Daha fazla bilgi için https://tr.wikipedia.org/wiki/Batman_(DC_Comics).</p>
+  </header>
+
+  <section>
+    <h3>Süper Güçler</h3>
+    <ul>
+      <li>Dedektiflik yetenekleri</li>
+      <li>Yüksek teknoloji ekipmanlar</li>
+      <li>Dövüş becerileri</li>
+    </ul>
+
+    <h3>Düşmanlar</h3>
+    <ul>
+      <li>Joker</li>
+      <li>Penguin</li>
+      <li>Two-Face</li>
+    </ul>
+
+    <h3>Ekip Arkadaşları</h3>
+    <ul>
+      <li>Robin</li>
+      <li>Batgirl</li>
+      <li>Alfred</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Kahraman Ekibine Katıl!</h2>
+    <form action="#" method="post">
+      <label for="name">İsim ve Soyisim:</label>
+      <input type="text" id="name" name="name" placeholder="Adınız Soyadınız" required>
+
+      <label for="hero_name">Süper Kahraman Adı:</label>
+      <input type="text" id="hero_name" name="hero_name" placeholder="Kahraman Adınız" required>
+
+      <label for="power">En Sevdiğiniz Süper Güç:</label>
+      <input type="text" id="power" name="power" placeholder="Süper Gücünüz" required>
+
+      <label for="message">Başvuru Mesajı:</label>
+      <textarea id="message" name="message" placeholder="Neden ekibe katılmak istiyorsunuz?" required></textarea>
+
+      <button type="submit">Gönder</button>
+    </form>
+  </section>
+
+</body>
+</html>
